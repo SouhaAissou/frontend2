@@ -1,0 +1,93 @@
+.form-control{
+    border-radius: 1rem;
+    border: 1px solid #4E31AA;
+    margin: 0.5rem;
+
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 0.2rem rgba(78, 49, 170, 0.25);
+    border-color: #4E31AA;
+}
+.form_{
+    width: 60%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.btn-primary{
+    background-color: #3A1078;
+    border-color: #3A1078;
+    margin: 0rem;
+    border-radius: 20px;
+    &:hover{
+        background-color: #4E31AA;
+        border-color: #4E31AA;
+        /* soft box shadow */
+        box-shadow: 0 0 10px rgba(78, 49, 170, 0.4);
+    }
+    /* button on click change color */
+    &:active{
+        background-color: #3795BD;
+    }
+}
+
+.sort{
+    float: right;
+    border: #4E31AA 1px solid;
+    border-radius: 9px;
+}
+.sort:focus{
+    box-shadow: 0 0 0 0.2rem rgba(78, 49, 170, 0.25);
+    border-color: #4E31AA;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    &:hover{
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+.job-card{
+    &:hover{
+        box-shadow: 0 0 10px rgba(78, 49, 170, 0.4);
+    }
+    &:active{
+        background-color: #DDF0F8;
+    }
+}
+.blue-border{
+    border: #3795BD 1px solid;
+    border-radius: 13px;
+}
+
+.badge-primary{
+    background: #89B8CC;
+    border: 1px solid #3795BD;
+    border-radius: 30px;
+    width: min-content;
+
+}
+
+.purple-devider{
+    color: #3A1078;
+}
+
+input[type="radio"]{
+    &:checked{
+        background-color: #4E31AA;
+    }
+    &:checked:focus{
+        box-shadow: 0 0 0 0.2rem rgba(78, 49, 170, 0.25);
+        border-color: #4E31AA;
+    }
+    &:checked:hover{
+        box-shadow: 0 0 0 0.2rem #3795BD40;
+        border-color: #4E31AA;
+    }
+
+}
